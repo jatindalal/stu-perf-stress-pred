@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 def load_model(model_type):
-    with open("trained_Stress_models/" + model_type + '.pkl', 'rb') as file:
+    with open("trained_stress_models/" + model_type + '.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
 
