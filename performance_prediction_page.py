@@ -47,7 +47,7 @@ def show_performance_prediction_page():
 
     selected_gender = st.selectbox("Gender", gender_options)
     selected_ethnicity = st.selectbox("Race/Ethnicity", ethnicity_options)
-    selected_parentel_level_of_education = st.selectbox("Race/Ethnicity", parentel_level_of_education_options)
+    selected_parentel_level_of_education = st.selectbox("Parental Level of Education", parentel_level_of_education_options)
     selected_model = st.selectbox("Regression Model to Use", model_options)
 
     selected_math_score = st.slider("Maths Score", 0, 100, 0)
